@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "spinlock.h": "c",
+        "stat.h": "c",
+        "user.h": "c",
+        "types.h": "c",
+        "fcntl.h": "c",
+        "ostream": "c",
+        "sysfunc.h": "c",
+        "syscall.h": "c"
+    }
+}

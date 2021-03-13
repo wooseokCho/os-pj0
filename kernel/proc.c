@@ -443,4 +443,11 @@ procdump(void)
   }
 }
 
+//new function
+int 
+getprocs(void){
+  int count_procs = 0;
+  return 0;
+  
+}
 

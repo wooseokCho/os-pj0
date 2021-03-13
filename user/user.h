@@ -40,5 +40,8 @@ void* malloc(uint);
 void free(void*);
 int atoi(const char*);
 
+//add my function
+int getprocs(void);
+
 #endif // _USER_H_
 
