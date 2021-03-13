@@ -7,6 +7,7 @@
         "fcntl.h": "c",
         "ostream": "c",
         "sysfunc.h": "c",
-        "syscall.h": "c"
+        "syscall.h": "c",
+        "fs.h": "c"
     }
 }

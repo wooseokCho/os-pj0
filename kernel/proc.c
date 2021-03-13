@@ -446,8 +446,18 @@ procdump(void)
 //new function
 int 
 getprocs(void){
+
   int count_procs = 0;
-  return 0;
-  
+  struct proc *p;
+
+  acquire(&ptable.lock); //table should not change during counting
+
+  for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+    if(p->state != UNUSED){
+      count_procs++;
+    }
+  }
+  release(&ptable.lock);
+  return count_procs;
 }
 
